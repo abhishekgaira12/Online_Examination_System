@@ -1,0 +1,44 @@
+.container
+{ 
+ margin: auto;     /*for center alignment*/
+  width: 30%;            /*for width of the login box*/
+  border: 5px solid rgb(39, 78, 39);
+  padding: 10px;    /*thickness of the boundry*/
+}
+
+.login
+{   
+    width:100%;
+    position: absolute;
+  opacity:95;
+  z-index:-1
+}
+
+input,textarea{
+  text-align: center;
+  margin:auto
+  font-size: 15px;
+  width:80;
+  margin:5px;
+  padding:9px;
+  border :2px solid black;
+  border-radius: 8px;
+  display: block;
+}
+button,bt{
+  color:white;
+  background-color: rgb(83, 217, 68);
+  padding:8px 12px;
+  border: 2px solid white;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.link
+{
+  position: fixed;
+  bottom: 10;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online examination</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+    <img class="bg" src="exam.jpg" alt="graphic era hill university">
+                                                      <!--<img class="question" src="question.jpg" alt="Question Paper">--> 
+   <!--Login form--> 
+   <h1>WELCOME TO YOUR EXAM</h1>
+    <div class="container">
+        
+        <!--       <h2>click here for question paper</h2>
+        <p>ENTER YOUR DETAILS TO LOGIN</p>   -->
+
+       <!--   <p class="submitMsg">Thanks for loging in</p> </p>  -->
+       
+
+        <form action="thanks.html" method="post"><!-- post and get method-->
+         
+            <br><input type="text" name="name" id="name" placeholder="enter your name"> <br>
+            <br><input type="section" name="section" id="section" placeholder="enter your section"> <br>
+            <br><input type="email" name="emal" id="email" placeholder="enter your email"> <br>
+            
+           <!-- <br><input type="phone" name="age" id="age" placeholder="enter your age"> <br>  
+            <br><textarea name="desc" id="desc" cols="30" rows="10" placeholder="enter any other information"></textarea> <br> -->
+            <input type="file" id="test" name="test" accept=".pdf,.doc"/>
+            <br><button class="btn">SUBMIT</button>
+
+        </form>
+                     <!--this link will take user to a html page where there will be a question paper and it will open in a new page-->
+        <a href="questionpaper.html" target="_blank">                         <!--target = blank      so that link opens in new page-->
+            <img src="paper.jpg" alt="Question paper" align="right"
+          style="width:200px;height:150px;object-position: 10px 10px;">
+          </a>
+            
+            <h2>Click here for your question paper</h2>
+            
+     </div>
+
+<!--
+    INSERT INTO `exam` (`sno`, `name`, `section`, `email`, `age`, `other`) VALUES ('1', 'abhishek gaira', 'k', 'abhishekgaira12@gmail.com', '20', 'hello this is my first page');
+-->
+        <script src="index.js"></script>
+</body>
+</html>
